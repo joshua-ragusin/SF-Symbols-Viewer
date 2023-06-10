@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27869A342A347F9D0039BA66 /* SF_Symbols_ViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27869A332A347F9D0039BA66 /* SF_Symbols_ViewerApp.swift */; };
+		27869A362A347F9D0039BA66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27869A352A347F9D0039BA66 /* ContentView.swift */; };
+		27869A382A347F9E0039BA66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27869A372A347F9E0039BA66 /* Assets.xcassets */; };
+		27869A3B2A347F9E0039BA66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27869A3A2A347F9E0039BA66 /* Preview Assets.xcassets */; };
+		27869A612A3480B70039BA66 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27869A602A3480B70039BA66 /* Symbol.swift */; };
+		27869A632A3483480039BA66 /* SymbolList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27869A622A3483480039BA66 /* SymbolList.swift */; };
+		27869A652A34838F0039BA66 /* SymbolListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27869A642A34838F0039BA66 /* SymbolListViewModel.swift */; };
+		27869A672A3485DF0039BA66 /* SymbolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27869A662A3485DF0039BA66 /* SymbolCell.swift */; };
+		27869A6A2A348BAA0039BA66 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 27869A692A348BAA0039BA66 /* SFSafeSymbols */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27869A412A347F9E0039BA66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27869A282A347F9D0039BA66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27869A2F2A347F9D0039BA66;
+			remoteInfo = "SF Symbols Viewer";
+		};
+		27869A4B2A347F9E0039BA66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27869A282A347F9D0039BA66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27869A2F2A347F9D0039BA66;
+			remoteInfo = "SF Symbols Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27869A302A347F9D0039BA66 /* SF Symbols Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SF Symbols Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27869A332A347F9D0039BA66 /* SF_Symbols_ViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF_Symbols_ViewerApp.swift; sourceTree = "<group>"; };
+		27869A352A347F9D0039BA66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27869A372A347F9E0039BA66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27869A3A2A347F9E0039BA66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27869A402A347F9E0039BA66 /* SF Symbols ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SF Symbols ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27869A4A2A347F9E0039BA66 /* SF Symbols ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SF Symbols ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27869A602A3480B70039BA66 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		27869A622A3483480039BA66 /* SymbolList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolList.swift; sourceTree = "<group>"; };
+		27869A642A34838F0039BA66 /* SymbolListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolListViewModel.swift; sourceTree = "<group>"; };
+		27869A662A3485DF0039BA66 /* SymbolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27869A2D2A347F9D0039BA66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27869A6A2A348BAA0039BA66 /* SFSafeSymbols in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27869A3D2A347F9E0039BA66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27869A472A347F9E0039BA66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27869A272A347F9D0039BA66 = {
+			isa = PBXGroup;
+			children = (
+				27869A322A347F9D0039BA66 /* SF Symbols Viewer */,
+				27869A312A347F9D0039BA66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27869A312A347F9D0039BA66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27869A302A347F9D0039BA66 /* SF Symbols Viewer.app */,
+				27869A402A347F9E0039BA66 /* SF Symbols ViewerTests.xctest */,
+				27869A4A2A347F9E0039BA66 /* SF Symbols ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27869A322A347F9D0039BA66 /* SF Symbols Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				27869A5F2A3480A00039BA66 /* ViewModels */,
+				27869A5E2A34808F0039BA66 /* Views */,
+				27869A5D2A347FE40039BA66 /* Models */,
+				27869A332A347F9D0039BA66 /* SF_Symbols_ViewerApp.swift */,
+				27869A352A347F9D0039BA66 /* ContentView.swift */,
+				27869A372A347F9E0039BA66 /* Assets.xcassets */,
+				27869A392A347F9E0039BA66 /* Preview Content */,
+			);
+			path = "SF Symbols Viewer";
+			sourceTree = "<group>";
+		};
+		27869A392A347F9E0039BA66 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27869A3A2A347F9E0039BA66 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27869A5D2A347FE40039BA66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27869A602A3480B70039BA66 /* Symbol.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27869A5E2A34808F0039BA66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27869A622A3483480039BA66 /* SymbolList.swift */,
+				27869A662A3485DF0039BA66 /* SymbolCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27869A5F2A3480A00039BA66 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				27869A642A34838F0039BA66 /* SymbolListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27869A2F2A347F9D0039BA66 /* SF Symbols Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27869A542A347F9E0039BA66 /* Build configuration list for PBXNativeTarget "SF Symbols Viewer" */;
+			buildPhases = (
+				27869A2C2A347F9D0039BA66 /* Sources */,
+				27869A2D2A347F9D0039BA66 /* Frameworks */,
+				27869A2E2A347F9D0039BA66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SF Symbols Viewer";
+			packageProductDependencies = (
+				27869A692A348BAA0039BA66 /* SFSafeSymbols */,
+			);
+			productName = "SF Symbols Viewer";
+			productReference = 27869A302A347F9D0039BA66 /* SF Symbols Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27869A3F2A347F9E0039BA66 /* SF Symbols ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27869A572A347F9E0039BA66 /* Build configuration list for PBXNativeTarget "SF Symbols ViewerTests" */;
+			buildPhases = (
+				27869A3C2A347F9E0039BA66 /* Sources */,
+				27869A3D2A347F9E0039BA66 /* Frameworks */,
+				27869A3E2A347F9E0039BA66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27869A422A347F9E0039BA66 /* PBXTargetDependency */,
+			);
+			name = "SF Symbols ViewerTests";
+			productName = "SF Symbols ViewerTests";
+			productReference = 27869A402A347F9E0039BA66 /* SF Symbols ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27869A492A347F9E0039BA66 /* SF Symbols ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27869A5A2A347F9E0039BA66 /* Build configuration list for PBXNativeTarget "SF Symbols ViewerUITests" */;
+			buildPhases = (
+				27869A462A347F9E0039BA66 /* Sources */,
+				27869A472A347F9E0039BA66 /* Frameworks */,
+				27869A482A347F9E0039BA66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27869A4C2A347F9E0039BA66 /* PBXTargetDependency */,
+			);
+			name = "SF Symbols ViewerUITests";
+			productName = "SF Symbols ViewerUITests";
+			productReference = 27869A4A2A347F9E0039BA66 /* SF Symbols ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27869A282A347F9D0039BA66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					27869A2F2A347F9D0039BA66 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					27869A3F2A347F9E0039BA66 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 27869A2F2A347F9D0039BA66;
+					};
+					27869A492A347F9E0039BA66 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 27869A2F2A347F9D0039BA66;
+					};
+				};
+			};
+			buildConfigurationList = 27869A2B2A347F9D0039BA66 /* Build configuration list for PBXProject "SF Symbols Viewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27869A272A347F9D0039BA66;
+			packageReferences = (
+				27869A682A348BAA0039BA66 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+			);
+			productRefGroup = 27869A312A347F9D0039BA66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27869A2F2A347F9D0039BA66 /* SF Symbols Viewer */,
+				27869A3F2A347F9E0039BA66 /* SF Symbols ViewerTests */,
+				27869A492A347F9E0039BA66 /* SF Symbols ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27869A2E2A347F9D0039BA66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27869A3B2A347F9E0039BA66 /* Preview Assets.xcassets in Resources */,
+				27869A382A347F9E0039BA66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27869A3E2A347F9E0039BA66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27869A482A347F9E0039BA66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27869A2C2A347F9D0039BA66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27869A652A34838F0039BA66 /* SymbolListViewModel.swift in Sources */,
+				27869A672A3485DF0039BA66 /* SymbolCell.swift in Sources */,
+				27869A362A347F9D0039BA66 /* ContentView.swift in Sources */,
+				27869A632A3483480039BA66 /* SymbolList.swift in Sources */,
+				27869A342A347F9D0039BA66 /* SF_Symbols_ViewerApp.swift in Sources */,
+				27869A612A3480B70039BA66 /* Symbol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27869A3C2A347F9E0039BA66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27869A462A347F9E0039BA66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27869A422A347F9E0039BA66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27869A2F2A347F9D0039BA66 /* SF Symbols Viewer */;
+			targetProxy = 27869A412A347F9E0039BA66 /* PBXContainerItemProxy */;
+		};
+		27869A4C2A347F9E0039BA66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27869A2F2A347F9D0039BA66 /* SF Symbols Viewer */;
+			targetProxy = 27869A4B2A347F9E0039BA66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27869A522A347F9E0039BA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27869A532A347F9E0039BA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27869A552A347F9E0039BA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SF Symbols Viewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 733AJH4K88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jragusin.SF-Symbols-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27869A562A347F9E0039BA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SF Symbols Viewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 733AJH4K88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jragusin.SF-Symbols-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27869A582A347F9E0039BA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 733AJH4K88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jragusin.SF-Symbols-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SF Symbols Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SF Symbols Viewer";
+			};
+			name = Debug;
+		};
+		27869A592A347F9E0039BA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 733AJH4K88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jragusin.SF-Symbols-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SF Symbols Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SF Symbols Viewer";
+			};
+			name = Release;
+		};
+		27869A5B2A347F9E0039BA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 733AJH4K88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jragusin.SF-Symbols-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SF Symbols Viewer";
+			};
+			name = Debug;
+		};
+		27869A5C2A347F9E0039BA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 733AJH4K88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jragusin.SF-Symbols-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SF Symbols Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27869A2B2A347F9D0039BA66 /* Build configuration list for PBXProject "SF Symbols Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27869A522A347F9E0039BA66 /* Debug */,
+				27869A532A347F9E0039BA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27869A542A347F9E0039BA66 /* Build configuration list for PBXNativeTarget "SF Symbols Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27869A552A347F9E0039BA66 /* Debug */,
+				27869A562A347F9E0039BA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27869A572A347F9E0039BA66 /* Build configuration list for PBXNativeTarget "SF Symbols ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27869A582A347F9E0039BA66 /* Debug */,
+				27869A592A347F9E0039BA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27869A5A2A347F9E0039BA66 /* Build configuration list for PBXNativeTarget "SF Symbols ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27869A5B2A347F9E0039BA66 /* Debug */,
+				27869A5C2A347F9E0039BA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27869A682A348BAA0039BA66 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27869A692A348BAA0039BA66 /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27869A682A348BAA0039BA66 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 27869A282A347F9D0039BA66 /* Project object */;
+}
