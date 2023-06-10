@@ -26,6 +26,9 @@ struct SymbolCell: View {
                     .imageScale(.large)
                     .font(.system(size: 30))
             }
+            
+            Text(symbol.name)
+                .font(.footnote)
         }
     }
 }
