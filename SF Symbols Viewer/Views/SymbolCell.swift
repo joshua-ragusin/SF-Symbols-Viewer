@@ -18,17 +18,19 @@ struct SymbolCell: View {
         VStack {
             ZStack {
                 RoundedRectangle(cornerRadius: 8, style: .continuous)
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.blue)
+                    .opacity(0.15)
                     .frame(width: 100, height: 80)
                 Image(systemName: symbol.name)
                     .renderingMode(.template)
-                    .foregroundColor(.primary)
+                    .foregroundColor(.accentColor)
                     .imageScale(.large)
                     .font(.system(size: 30))
             }
             
             Text(symbol.name)
                 .font(.footnote)
+                .multilineTextAlignment(.center)
         }
     }
 }

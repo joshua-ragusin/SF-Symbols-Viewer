@@ -30,7 +30,7 @@ struct SymbolList: View {
         if searchText.isEmpty {
             return model.symbols
         } else {
-            return model.symbols.filter { $0.name.contains(searchText.lowercased()) }
+            return model.filterSymbols(by: searchText)
         }
     }
     
