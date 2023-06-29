@@ -10,6 +10,8 @@ import SwiftUI
 struct SymbolList: View {
     @StateObject private var model: SymbolListViewModel
     
+    @State private var searchText = ""
+    
     init() {
         _model = StateObject(wrappedValue: SymbolListViewModel())
     }
@@ -20,12 +22,21 @@ struct SymbolList: View {
                 symbolGrid
             }
             .navigationTitle("SF Symbols")
+            .searchable(text: $searchText, prompt: "Search")
+        }
+    }
+    
+    private var searchResuls: [Symbol] {
+        if searchText.isEmpty {
+            return model.symbols
+        } else {
+            return model.symbols.filter { $0.name.contains(searchText.lowercased()) }
         }
     }
     
     private var symbolGrid: some View {
         LazyVGrid(columns: [GridItem(.adaptive(minimum: 100), alignment: .top)]) {
-            ForEach(model.symbols, id: \.id) { symbol in
+            ForEach(searchResuls, id: \.id) { symbol in
                 Button {
                     print("Selected Symbol: \(symbol.name)")
                 } label: {
