@@ -29,6 +29,7 @@ struct SymbolDetailView: View {
             
             Text(symbol.name)
                 .font(.body)
+                .foregroundColor(.primary)
         }
         .navigationTitle("Symbol Details")
         .toolbar {

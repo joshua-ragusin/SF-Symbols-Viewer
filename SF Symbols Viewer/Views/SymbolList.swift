@@ -24,6 +24,7 @@ struct SymbolList: View {
             .navigationTitle("SF Symbols")
             .searchable(text: $searchText, prompt: "Search")
         }
+        .navigationViewStyle(.stack)
     }
     
     private var searchResuls: [Symbol] {

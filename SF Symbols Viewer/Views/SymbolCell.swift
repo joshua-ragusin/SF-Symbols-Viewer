@@ -31,6 +31,7 @@ struct SymbolCell: View {
             Text(symbol.name)
                 .font(.footnote)
                 .multilineTextAlignment(.center)
+                .foregroundColor(.primary)
         }
     }
 }
