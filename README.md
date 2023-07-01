@@ -8,17 +8,20 @@ SF Symbols Viewer allows users to search for SF Symbols by name, and view symbol
 # Screenshots
 iPad:
 
-![Simulator Screenshot - iPad Pro (12 9-inch) (6th generation) - 2023-07-01 at 01 28 21](https://github.com/joshua-ragusin/SF-Symbols-Viewer/assets/130528752/9241b7ca-16b1-4dfb-95df-ca7ba330b969)
+![Simulator Screenshot - iPad Pro (12 9-inch) (6th generation) - 2023-07-01 at 01 28 21](https://github.com/joshua-ragusin/SF-Symbols-Viewer/assets/130528752/d4ac2ba7-99dd-4ad5-9064-40fa2f90fca7)
+
 
 iPhone:
 
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-01 at 01 17 46](https://github.com/joshua-ragusin/SF-Symbols-Viewer/assets/130528752/6c1d1e3c-f993-4e20-ab59-aec8e4074ce3)
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-01 at 01 19 16](https://github.com/joshua-ragusin/SF-Symbols-Viewer/assets/130528752/b2c9544f-ec77-4948-be61-c87fcab8e7bf)
+![Simulator Screenshot - iPhone 14 Pro - 2023-07-01 at 01 17 46](https://github.com/joshua-ragusin/SF-Symbols-Viewer/assets/130528752/6724519a-06c8-4d08-b026-1c2ae0603164)
+![Simulator Screenshot - iPhone 14 Pro - 2023-07-01 at 01 19 16](https://github.com/joshua-ragusin/SF-Symbols-Viewer/assets/130528752/e6e515c7-f435-4c64-afd8-cb079b4bdc93)
+
 
 # Demo
 
-![gif1](https://github.com/joshua-ragusin/SF-Symbols-Viewer/assets/130528752/07711639-4d26-4775-85c1-2f34fa8c1536)
-![gif2](https://github.com/joshua-ragusin/SF-Symbols-Viewer/assets/130528752/30c5e0c8-93e5-40b5-9b30-7f716b9295d1)
+![gif1](https://github.com/joshua-ragusin/SF-Symbols-Viewer/assets/130528752/06668c5b-7915-4260-a068-ae643324297d)
+![gif2](https://github.com/joshua-ragusin/SF-Symbols-Viewer/assets/130528752/e3a5bfed-b7e5-48b4-a965-45c36f955b9a)
+
 
 
 
