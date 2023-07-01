@@ -37,12 +37,11 @@ struct SymbolList: View {
     private var symbolGrid: some View {
         LazyVGrid(columns: [GridItem(.adaptive(minimum: 100), alignment: .top)]) {
             ForEach(searchResuls, id: \.id) { symbol in
-                Button {
-                    print("Selected Symbol: \(symbol.name)")
+                NavigationLink {
+                    SymbolDetailView(symbol)
                 } label: {
                     SymbolCell(symbol: symbol)
                 }
-                .buttonStyle(.plain)
             }
         }
     }

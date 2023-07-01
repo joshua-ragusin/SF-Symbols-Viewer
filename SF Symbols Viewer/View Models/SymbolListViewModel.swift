@@ -34,9 +34,9 @@ class SymbolListViewModel: ObservableObject {
     }
     
     private func loadSymbols() {
-        let allSymbols = SFSymbol.allSymbols
+        let allSymbols = SFSymbol.allSymbols.sorted { $0.rawValue < $1.rawValue }
         
-        for symbol in allSymbols.sorted(by: { $0.rawValue < $1.rawValue }) {
+        for symbol in allSymbols {
             symbols.append(Symbol(name: symbol.rawValue))
         }
     }

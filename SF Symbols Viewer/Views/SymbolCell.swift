@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SymbolCell: View {
+    
     private let symbol: Symbol
     
     init(symbol: Symbol) {
@@ -18,12 +19,11 @@ struct SymbolCell: View {
         VStack {
             ZStack {
                 RoundedRectangle(cornerRadius: 8, style: .continuous)
-                    .foregroundColor(.blue)
-                    .opacity(0.15)
+                    .foregroundColor(.secondary.opacity(0.25))
                     .frame(width: 100, height: 80)
                 Image(systemName: symbol.name)
-                    .renderingMode(.template)
-                    .foregroundColor(.accentColor)
+                    .symbolRenderingMode(.monochrome)
+                    .foregroundColor(.primary)
                     .imageScale(.large)
                     .font(.system(size: 30))
             }
